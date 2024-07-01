@@ -5,7 +5,6 @@ from fastapi import FastAPI, HTTPException
 from fast_zero.schemas import Message, UserDB, UserList, UserPublic, UserSchema
 
 app = FastAPI()
-
 database = list()
 
 
